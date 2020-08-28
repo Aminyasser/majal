@@ -1,0 +1,45 @@
+       <!-- <header class="main-header">
+            <div class="container">
+
+                <div class="logo">
+                    <img src="../img/15715352706148.png" alt="logo" draggable="false">
+                    <p>jsjfs</p>
+                </div>
+                <nav>
+                    <ul class="nav-items">
+                        <li><a href="#">الرئيسية</a></li>
+                        <li><a href="#">جميع الماركات</a></li>
+                        <li><a href="#">مقارنة</a></li>
+                        <li><a href="#">اخبار السيارات</a></li>
+                        <li><a href="#">مراكز الصيانة</a></li>
+                        <li><a href="#">عيوب ومميزات</a></li>
+                        <li><a href="#"> </a></li>
+                    </ul>
+                </nav>
+                <div class="toggle-nav">
+                    <button class="toggle-btn toggle-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="mobile-menu">
+                        <ul class="nav-items mobile-menu-items">
+                            <li>
+                                <button class="toggle-btn toggle-menu-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </li>
+                            <li><a href="#">الرئيسية</a></li>
+                            <li><a href="#">جميع الماركات</a></li>
+                            <li><a href="#">مقارنة</a></li>
+                            <li><a href="#">اخبار السيارات</a></li>
+                            <li><a href="#">مراكز الصيانة</a></li>
+                            <li><a href="#">عيوب ومميزات</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>

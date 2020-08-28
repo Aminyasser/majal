@@ -1,0 +1,44 @@
+@font-face {
+    src: url(../fonts/Cairo-Light.ttf);
+    font-family: font1
+}
+
+* {
+    font-family: font1;
+    font-size: 15px;
+    box-sizing: border-box
+}
+
+.center {
+    text-align: center
+}
+
+.left {
+    text-align: left
+}
+
+hr {
+    border: .5px solid #000
+}
+
+
+
+.bold {
+    font-weight: 700
+}
+
+.footr button {
+    padding: .4rem 1.1rem;
+    text-align: center
+}
+
+.footr a {
+    display: block
+}
+
+.end {
+    padding: 2rem;
+    margin: 20px auto;
+    background-color: #c0c0c03d;
+    color: #fff
+}

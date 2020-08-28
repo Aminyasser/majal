@@ -1,0 +1,176 @@
+@font-face {
+    src: url(../fonts/Tajawal-Light.ttf);
+    font-family: font1
+}
+
+* {
+    font-family: font1;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+
+}
+
+
+.chat li .chat-body p.sender
+{
+    background: #94C2ED;
+    color: #fff;
+    padding: 8px 10px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    float:left;
+    position: relative;
+    margin-top:10px;
+
+
+}
+.chat li .chat-body p.recever
+{
+    margin-top:10px;
+    background: #86BB71;
+    color: #fff;
+    padding: 8px 10px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: right;
+    float:right;
+
+}
+.typing{
+    padding-left: 20px;
+    height: 27px;
+    background:#e44d3a;
+}
+/*  */
+
+/*  */
+#typing{
+    display:none;
+}
+
+.alert{
+    margin-top:10px;
+}
+.typing p{
+    position: relative;
+
+}
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: auto;
+    height: 400px;
+    background: #F2F5F8;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.smsnum{
+    color: #e00b46;
+    position: relative;
+    top: -7px;
+    background: yellow;
+    border-radius: 50%;
+    padding: 0 4px;
+    left: -9px;
+}
+#smsnum{
+    display:none;
+}
+
+.panel-primary{
+    border-color:white !important;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default {
+    background-color: #e44d3a !important;
+    border-color: #ffffff !important;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #ffffff !important;
+}
+body{
+    background-color: #e44d3a !important;
+    color: white !important;
+}
+.panel-body{
+    overflow-y: auto;
+    height: 420px;
+    color: white;
+    background: #e44d3a;
+}
+.panel-primary>.panel-heading{
+    color: #e44d3a;
+    background-color: #f5f5f5  !important;
+    border-color: #f5f5f5  !important;
+    border-bottom: 1px solid white !important;
+}
+.pull-left a,.pull-right{
+    color: black !important;
+}
+.panel panel-primary{
+    box-shadow: 0px 0px 7px 0px white;
+}
+#all-chat-message a{
+    color: white !important;
+}
+#all-chat-message p{
+    color: white !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #fff;
+    background-color: #1b3542 !important;
+}
